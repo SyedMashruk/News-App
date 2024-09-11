@@ -13,6 +13,8 @@ A cross-platform news application using Flutter and Dart. The app integrates wit
 
 ![screenshot_5](https://github.com/SyedMashruk/News-App/blob/main/Screenshots/5.png)
 
+![screenshot_6](https://github.com/SyedMashruk/News-App/blob/main/Screenshots/6.png)
+
 ## Project Information
 **Project Title:** News App<br>
 **Project Type:** API integrated news application (Cross Platform)
