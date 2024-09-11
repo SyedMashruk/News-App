@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:news/widgets/screens/all_news.dart';
-import 'package:news/widgets/screens/category.dart';
 import 'package:news/widgets/custom/custom_app_bar.dart';
+import 'package:news/widgets/screens/category_screen.dart';
 import 'package:news/widgets/screens/top_news.dart';
 
 class CustomNavigationBar extends StatefulWidget {
@@ -22,7 +22,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
   List<dynamic> pageList = [
     TopNews(),
     AllNews(),
-    Category(),
+    const CategoryScreen(),
   ];
   @override
   Widget build(BuildContext context) {
